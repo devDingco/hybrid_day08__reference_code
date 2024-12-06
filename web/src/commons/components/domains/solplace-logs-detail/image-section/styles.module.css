@@ -1,0 +1,21 @@
+.section {
+  position: relative;
+  margin-left: -1.25rem;
+  width: 100vw;
+}
+
+.indicator {
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 1;
+}
+
+.toast {
+  width: 100%;
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  padding: 0 1.25rem;
+  z-index: 1;
+}

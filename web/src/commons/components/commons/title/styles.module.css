@@ -1,0 +1,17 @@
+.title {
+  font-size: 1.125rem;
+}
+
+.sub_title {
+  font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title,
+.sub_title {
+  width: 100%;
+  font-weight: 700;
+  line-height: 1.5rem;
+}

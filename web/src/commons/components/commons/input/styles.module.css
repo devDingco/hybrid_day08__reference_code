@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.label_text {
+  color: var(--gary-800);
+  line-height: 1.25rem;
+}
+
+.star {
+  color: var(--red);
+  line-height: 1rem;
+}
+
+.input_box {
+  position: relative;
+  z-index: 1;
+}
+
+.normal,
+.address {
+  background-color: var(--gray-W);
+  color: var(--gray-B);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  font-size: 0.875rem;
+}
+
+.normal {
+  border: 0.063rem solid var(--gray-200);
+  font-weight: 500;
+
+  &::placeholder {
+    color: var(--gray-400);
+  }
+
+  &:focus {
+    border: 0.063rem solid var(--gray-600);
+  }
+}
+
+.address {
+  border: 0.063rem solid var(--gray-B);
+  font-weight: 700;
+
+  &::placeholder {
+    color: var(--gray-B);
+  }
+}
+
+.right_arrow {
+  position: absolute;
+  top: 50%;
+  right: 0.75rem;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.file {
+  display: none;
+}

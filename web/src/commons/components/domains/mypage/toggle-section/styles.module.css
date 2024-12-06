@@ -1,0 +1,80 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_container {
+  display: inline-flex;
+  width: 100%;
+  padding: 1.5rem 0 2.5rem 0;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.subtitle {
+  /* 추가 스타일 필요시 여기에 작성 */
+}
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox {
+  display: none; /* sr-only 스타일을 사용하는 대신, 체크박스를 숨깁니다 */
+}
+
+.toggle {
+  position: relative;
+  width: 2.75rem; /* 11px */
+  height: 1.5rem; /* 6px */
+  background-color: #e5e7eb; /* bg-gray-200 */
+  border-radius: 9999px; /* rounded-full */
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+.toggle:focus {
+  outline: 4px solid rgba(59, 130, 246, 0.5); /* peer-focus:ring-4 peer-focus:ring-blue-300 */
+}
+
+.toggle:focus-visible {
+  outline: 4px solid rgba(37, 99, 235, 0.5); /* dark:peer-focus:ring-blue-800 */
+  /*  */
+}
+
+.toggle.checked {
+  background-color: var(--blue) !important ;
+}
+
+.toggle::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px; /* 시작 위치 */
+  background-color: white; /* after:bg-white */
+  border: 1px solid #d1d5db; /* after:border-gray-300 */
+  border-radius: 9999px; /* rounded-full */
+  height: 1.25rem; /* after:h-5 */
+  width: 1.25rem; /* after:w-5 */
+  transition: transform 0.2s;
+}
+
+.toggle.checked::after {
+  transform: translateX(1.25rem); /* translate-x-full */
+}
+
+.toggle.checked::after {
+  border-color: white; /* after:border-white */
+}
+
+.toggleArea {
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+}

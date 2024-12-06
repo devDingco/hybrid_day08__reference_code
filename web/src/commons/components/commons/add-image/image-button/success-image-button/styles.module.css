@@ -1,0 +1,36 @@
+.image_container {
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.image_s {
+  min-width: 6.25rem;
+  height: 6.25rem;
+}
+
+.image_m {
+  min-width: 10rem;
+  height: 10rem;
+}
+
+.delete_icon {
+  position: absolute;
+}
+
+.delete_icon_s {
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.delete_icon_m {
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}

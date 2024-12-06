@@ -1,0 +1,16 @@
+.address {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  width: 1rem;
+  height: 1rem;
+}
+
+.address_text {
+  color: var(--gray-600, #777);
+  font-size: 0.813rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+}

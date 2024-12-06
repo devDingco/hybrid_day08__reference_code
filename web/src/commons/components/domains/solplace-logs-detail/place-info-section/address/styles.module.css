@@ -1,0 +1,36 @@
+.address_container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.address_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.map_folder {
+  display: flex;
+  align-items: center;
+  color: var(--gray-800);
+  font-size: 0.813rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  cursor: pointer;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.rotate_reverse {
+  transform: rotate(0);
+}
+
+.rotate,
+.rotate_reverse {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: transform 0.3s ease;
+}

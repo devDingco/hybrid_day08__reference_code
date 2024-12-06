@@ -1,0 +1,10 @@
+.indicator_box {
+  border-radius: 6.25rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.25rem 0.5rem;
+  color: var(--gray-50);
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.75rem;
+}

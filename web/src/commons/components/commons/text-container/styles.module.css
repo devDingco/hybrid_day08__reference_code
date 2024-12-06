@@ -1,0 +1,10 @@
+.round_m_full {
+  padding: 0.75rem 1.25rem;
+  border-radius: 6.25rem;
+  background: var(--gray-W);
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.16);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}

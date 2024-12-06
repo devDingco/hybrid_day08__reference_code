@@ -1,0 +1,30 @@
+.nav {
+  width: 100%;
+  display: flex;
+  background-color: var(--gray-W);
+  border: 1px solid var(--gray-50);
+  padding: 0.5rem 1.25rem;
+}
+
+.nav_button {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--gray-600);
+
+  font-size: 0.688rem;
+  font-weight: 600;
+  line-height: 0.75rem;
+
+  &:disabled {
+    color: var(--gray-B);
+  }
+}
+
+.nav_icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}

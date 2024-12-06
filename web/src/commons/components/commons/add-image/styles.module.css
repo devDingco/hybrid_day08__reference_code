@@ -1,0 +1,10 @@
+.add_image_container {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 0.75rem;
+  overflow-x: auto;
+}
+
+.add_image_button {
+  border-radius: 0.5rem;
+}

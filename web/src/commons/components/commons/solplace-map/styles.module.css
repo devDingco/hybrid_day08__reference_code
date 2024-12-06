@@ -1,0 +1,12 @@
+.map_detail_page {
+  width: 100%;
+  height: 160px;
+  border-radius: 12px;
+}
+
+.map_new_and_edit_page {
+  width: calc(100% + 2.5rem);
+  height: calc(100% - 11rem);
+  flex: 1;
+  margin-left: -1.25rem;
+}

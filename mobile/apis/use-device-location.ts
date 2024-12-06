@@ -16,10 +16,22 @@ export const useDeviceLocation = (onResponse: any) => {
     }
   };
 
+  //권한만 쏙 빼오기!
   const fetchDeviceLocationForPermissionSet = async () => {
-    const result = await Location.requestForegroundPermissionsAsync();
+    const result = await Location.getForegroundPermissionsAsync();
+
     onResponse({
       fetchDeviceLocationForPermissionSet: {
+        status: result.status,
+      },
+    });
+  };
+
+  // 권한 빼오기 전에, 요청만 하는것!
+  const requestDeviceLocationForPermissionSet = async () => {
+    const result = await Location.requestForegroundPermissionsAsync();
+    onResponse({
+      requestDeviceLocationForPermissionSet: {
         status: result.status,
       },
     });
@@ -28,5 +40,6 @@ export const useDeviceLocation = (onResponse: any) => {
   return {
     fetchDeviceLocationForLatLngSet,
     fetchDeviceLocationForPermissionSet,
+    requestDeviceLocationForPermissionSet,
   };
 };

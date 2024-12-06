@@ -1,0 +1,5 @@
+.layout {
+  width: 100%;
+  min-height: calc(100vh - 6rem);
+  padding: 0 1.25rem;
+}

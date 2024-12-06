@@ -1,0 +1,14 @@
+.footer {
+  padding-top: 1.25rem;
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+  padding-bottom: 1.25rem;
+}

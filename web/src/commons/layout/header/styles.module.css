@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  background-color: var(--gray-W);
+  display: flex;
+  gap: 0.25rem;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 3rem;
+  padding: 0.75rem 1.25rem;
+  z-index: 100;
+}
+
+.logo {
+  width: 3.22rem;
+  height: 2rem;
+}
+
+.back_button {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.sub_header {
+  background-color: var(--gray-W);
+  justify-content: flex-start;
+  width: 100vw;
+  height: 3rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.exit_button {
+  position: absolute;
+  top: 4rem;
+  left: 1.25rem;
+}
